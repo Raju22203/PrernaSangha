@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prerna Sangha</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="fevicon.ico.jpg">
+</head>
+<style>
+   
+  
+  
+  
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+</style>
+
+<body style="height:3000px">
+ 
+     
+    
+    <img src="logo.png" style=" width: 100%; background-color: white;">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+      <div class="container-fluid">
+         
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" href="#" style="color:white;"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://maps.app.goo.gl/VXPvbN5z1UoYKvZX9" style="color:white;"><i class="fa-solid fa-location-dot"></i>Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank"   href="members.php" style="color:white;"><i class="fa-solid fa-users"></i>Members</a>
+            </li>  
+            <li class="nav-item dropdown" >
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color:white;"><i class="fa-solid fa-photo-film"></i>Gallery</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="photos.php">Photos</a></li>
+                <li><a class="dropdown-item" href="#">Videos</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+       
+ 
+ <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="theme 1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="theme 2.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="member.jpg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>  
+    </div>
+     <!-- 3rd -->
+     <div class="carousel-item">
+      <img src="theme3.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div> 
+    </div>
+    <!-- 4th -->
+    <div class="carousel-item">
+      <img src="prize.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div> 
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+<!-- body section -->
+
+<body style="height:1500px">
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark sticky-top" >
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#2020" style="color:white;">2020</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2021" style="color:white;">2021</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2022" style="color:white;">2022</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2023" style="color:white;">2023</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2024" style="color:white;">2024</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+
+    <div id="2020" class="container-fluid">
+      <!-- <h1>2020</h1> -->
+      <?php include '2020.php';?>
+    </div>
+    
+    <div id="2021" class="container-fluid">
+      <!-- <h1>2021</h1> -->
+      <?php include '2021.php';?>
+    </div>
+    
+    <div id="2022" class="container-fluid">
+      <!-- <h1>2022 </h1> -->
+      <?php include '2022.php';?>
+    
+    </div>
+
+    <div id="2023" class="container-fluid">
+        <!-- <h1>2023</h1> -->
+        <?php include '2023.php';?>
+      </div>
+
+      <div id="2024" class="container-fluid">
+        <!-- <h1>2024</h1> -->
+
+        
+
+        <!-- loading -->
+        <div class="container mt-3">
+   
+                                        
+            <button class="btn btn-dark">
+              <span class="spinner-border spinner-border-sm"></span>
+            </button>
+          
+            <button class="btn btn-danger">
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+            
+            <button class="btn btn-light" disabled>
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+            
+            <button class="btn btn-success" disabled>
+              <span class="spinner-grow spinner-grow-sm"></span>
+              Loading..
+            </button>
+            <?php include '2024.php';?>
+          </div>
+          
+         
+      </div>
+      
+    </body>
+
+
+    <?php include 'card.php';?>
+
+    <!-- location -->
+    <h1 style="text-align: center; font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">Location</h1>
+    <div style="margin-top: 20px;">
+      <!-- <h1 style="text-align: center; font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">Location</h1> -->
+        <a href="https://maps.app.goo.gl/VXPvbN5z1UoYKvZX9" ><img src="location.jpg" style=" width: 100%;  "></a>
+    </div>
+
+
+    <h1 style="text-align: center; font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">Budget</h1>
+    <diV style="text-align: center;">
+      <!-- <h1 >Budget</h1> -->
+      <img src="graph (2).jpg" style="width: 70%;">
+    </diV>
+
+    <!-- Members Section -->
+
+    
+
+<!-- about section -->
+
+<div class="container mt-3" id="about us">
+  <div class="card img-fluid" style="width:500px">
+   <img class="card-img-top" src="puja3.jpg" alt="Card image" style="width:100%">
+   <div class="card-img-overlay">
+     <h4 class="card-title">About Us</h4>
+     <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+     
+   </div>
+ </div>
+</div>
+
+ <!-- Scroll Button -->
+
+ <?php include 'Scroll.php';?>
+
+
+ <!-- Footer Section -->
+
+ <?php include 'footer.php';?>
+
+
+
+</body>
+
+</html>
+
+
